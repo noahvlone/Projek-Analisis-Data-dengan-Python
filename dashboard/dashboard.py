@@ -7,8 +7,8 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Load datasets
-day_df = pd.read_csv('day.csv')
-hour_df = pd.read_csv('hour.csv')
+day_df = pd.read_csv('dashboard/day.csv')
+hour_df = pd.read_csv('dashboard/hour.csv')
 
 # Convert the date columns to datetime format
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
